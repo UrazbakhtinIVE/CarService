@@ -1,0 +1,225 @@
+@media (max-width: 1260px) {
+    .infoItem{
+        padding: 30px;
+    }
+    .infoTitle{
+        font-size: 16px;
+    }
+    .infoText{
+        font-size: 14px;
+    }
+    .infoTitle{
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    .infoTitle{
+        letter-spacing: unset;
+    }
+    .aboutBlock{
+        margin-right: 30px;
+    }
+    .servicesContent {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px){
+   .section{
+        margin-bottom: 30px;
+    }
+    .headerLogo {
+        height: 55px;
+    }
+    .introBlock{
+        text-align: center;
+    }
+    .introContent{
+        height: 500px;
+        justify-content: center;
+    }
+    .section .blockLink{
+        display: flex;
+       justify-content: center;
+    }
+    .section.process{
+        margin-top: 0;
+    }
+   .process .subProcessTitle{
+        margin-bottom: 10px;
+    }
+
+    .process .processTitle{
+        font-size: 100px;
+    }
+     .about .aboutText{
+         margin-bottom: 15px;
+    }
+     .about .aboutLink{
+         font-size: 14px;
+     }
+
+    .processItem{
+        text-align: center;
+        min-height: auto;
+        padding: 20px 20px 12px;
+    }
+
+    .introContentTitle{
+        font-size: 34px;
+    }
+    .servicesContent {
+        height: 300px;
+    }
+    .servicesContentItem{
+        display: none;
+    }
+
+    section .about{
+        padding: 30px 0;
+    }
+
+    .aboutText{
+        text-align: justify;
+    }
+    .aboutWrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .aboutBlock{
+        padding-right: 0;
+        margin-right: 0;
+
+    }
+    .aboutImg{
+        max-height:  100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 850px){
+    section.info{
+        transform: translateY(-75px);
+        margin-bottom: -50px;
+    }
+    .wrapper{
+        flex-wrap: wrap;
+    }
+    .infoItem{
+        text-align: center;
+    }
+    .wrapper .block{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .servicesContent{
+        height: 450px;
+        background-position: center;
+    }
+    .blockTitle{
+        text-align: center;
+    }
+    .contactForm{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px){
+    .nav{
+        display: none;
+    }
+   .process .processTitle{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 560px){
+  .header  .logoImg{
+        height: 45px;
+    }
+  .servicesItem  .servicesContent{
+        height: 300px;
+    }
+  .about  .aboutTitle{
+        margin: 20px 0 30px;
+    }
+    .aboutText{
+        margin: 30px 0 30px;
+    }
+    .process .processTitle{
+        font-size: 50px;
+    }
+    .process .subProcessTitle{
+        font-size: 25px;
+    }
+    section.section{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .section .blockLink{
+        margin: 15px;
+    }
+    .section  .process{
+        margin-top: 0;
+    }
+
+  .footer .footerWrapper{
+       height: auto;
+       padding: 30px 0;
+       flex-direction: column;
+   }
+    .footer .copyright{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 460px){
+    .introContentTitle{
+        font-size: 26px;
+    }
+    .blockTitle{
+        font-size: 24px;
+    }
+    .process .processTitle{
+        font-size: 35px;
+    }
+
+    .process .subProcessTitle{
+        font-size: 20px;
+    }
+
+
+    .footer .copyright{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .process .processTitle{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 316px){
+    .about .aboutTitle{
+        font-size: 22px;
+        text-align: center;
+    }
+   .contacts .formRow{
+        margin: 0 -10px;
+       flex-direction: column;
+    }
+    .contacts .formGroup{
+        padding: 0 10px;
+    }
+    .process .processTitle{
+        font-size: 35px;
+    }
+    .process .subProcessTitle{
+        font-size: 20px;
+    }
+}
